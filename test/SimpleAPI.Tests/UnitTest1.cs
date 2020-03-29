@@ -18,7 +18,7 @@ namespace SimpleAPI.Tests
         public void GetReturnsCorrectNumber()
         {
         var returnValue = controller.GetString(1);
-        Assert.Equal("Les Jacksoning", returnValue.Value);
+        Assert.Equal("Les Jackson", returnValue.Value);
         }
     }
 }
